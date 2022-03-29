@@ -1,0 +1,135 @@
+.header {
+  display: flex;
+  justify-content: center;
+  margin: 3%;
+  font-family: "Amiri", serif;
+  font-family: "Ramaraja", serif;
+  font-family: "Righteous", cursive;
+  font-family: "Sansita Swashed", cursive;
+}
+
+body {
+  background-color: rgb(243, 219, 223);
+}
+
+/* .container {
+  display: flex;
+  margin-top: 2%;
+}
+
+.flip-card {
+  background-color: rgb(245, 160, 188);
+  margin: 20px;
+  text-align: center;
+  font-size: 130%;
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+  width: 550px;
+  height: 570px;
+  background-color: transparent;
+  justify-content: space-evenly;
+} */
+
+img {
+  margin-top: 0.5%;
+}
+
+/* .flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.flip-card-front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  font-family: "Amiri", serif;
+  font-family: "Righteous";
+
+  font-size: 200%;
+}
+
+.card-added {
+  color: black;
+  border: 1px solid palevioletred;
+  background-color: pink;
+  border-radius: 15px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  font-family: "Amiri", serif;
+  font-family: "Righteous";
+
+  font-size: 200%;
+}
+
+.pricebox {
+  font-family: "Amiri", serif;
+  font-family: "Ramaraja", serif;
+  font-family: "Righteous", cursive;
+  font-family: "Sansita Swashed", cursive;
+}
+
+.cartbutton {
+  margin-top: 3%;
+}
+
+.cartimg {
+  margin-left: auto;
+} */
+.containers {
+  background-color: transparent;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.cardd {
+  background-color: rgb(204, 135, 164);
+  width: 350px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid grey;
+  border-radius: 5%;
+}
+.imgcard {
+  width: 200px;
+  margin-top: -20px;
+}
+
+.cartimg {
+  margin-left: auto;
+}
+.other {
+  background-color: rgb(231, 200, 231);
+  height: 100vh;
+  width: 99vw;
+  margin-top: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  background-color: rgba(0, 73, 61, 0.411);
+  height: 140px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
